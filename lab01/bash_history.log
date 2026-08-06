@@ -1,4 +1,3 @@
-nvim main.c
 gcc main.c -o main
 strace ./main
 strace -o trace.log ./main

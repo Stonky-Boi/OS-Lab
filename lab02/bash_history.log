@@ -1,0 +1,6 @@
+gcc part1.c -o part1
+gcc part2.c -o part2
+gcc part3.c -o part3
+strace ./part1
+strace ./part2
+strace ./part3
