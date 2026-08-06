@@ -1,0 +1,7 @@
+nvim main.c
+gcc main.c -o main
+strace ./main
+strace -o trace.log ./main
+readelf -a main
+gcc -Wall --save-temps main.c -o main
+file main*
