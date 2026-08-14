@@ -1,0 +1,5 @@
+make
+sudo insmod hello.ko
+cat /proc/hello
+sudo dmesg | tail
+sudo rmmod hello
